@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.Book-logo {
+  /*height: 40vmin;*/
+  /*width: 200px;*/
+  height: 400px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -25,7 +31,18 @@
 }
 
 .App-link {
-  color: #61dafb;
+  /*color: #61dafb;*/
+  color: #33A4FF;
+  font-size: 20px;
+  /*color: white;*/
+  text-decoration: none;
+   /*background-color: transparent;*/
+}
+
+.App-link:hover {
+    color: #61dafb;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +52,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title {
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+
+.sub-title {
+  padding-bottom: 15px;
+  color: #33A4FF;
+}
+
+.container {
+  display: flex; 
+  /*row-gap: 10px;*/
+  column-gap: 140px;
+  /*justify-content: space-around;*/
+  padding: 30px;
 }
