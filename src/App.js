@@ -85,7 +85,7 @@ function App() {
                 download
               >
                
-               806 פתרונות
+               806 פתרונות 
               </a>
             </div>
           </div>
